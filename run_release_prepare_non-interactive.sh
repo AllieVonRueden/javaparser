@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+# /usr/bin/env!bash
 
 ## Exit script if any non-zero exit code (nb: some redundancy with checks below - may remove if exit code checks are thorough)
 set -e
@@ -95,3 +95,4 @@ echo "[JavaParser]: Follow tags will push any tags associated with the current h
 echo "[JavaParser]: Alternatively, you can push the tag itself using \`git push <repo-name> <tag-name>\`."
 echo "[JavaParser]"
 echo "[JavaParser]"
+ 
